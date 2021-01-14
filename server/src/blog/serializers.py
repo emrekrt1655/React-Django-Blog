@@ -3,7 +3,7 @@ from .models import Post
 
 
 # Serializers define the API representation.
-class BlogSerializer(serializers.ModelSerializer):
+class PostSerializer(serializers.ModelSerializer):
     class Meta:
         model = Post
         fields = '__all__'
